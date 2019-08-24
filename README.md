@@ -32,6 +32,12 @@ mkdir controllers
 ```
 The final layout is located [here](src/hello-rest)  
 
+While still inside the **./hello-rest/** folder call the following;  
 
+```
+go run ./main.go 
+```
+To see it work browse to the following url;
+[http://localhost:8000/books](http://localhost:8000/books)  
 
 
