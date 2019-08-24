@@ -14,10 +14,8 @@ func main() {
 
 	router := mux.NewRouter()
 
-	
 	// Route handles & endpoints
 	router.HandleFunc("/tokens", controllers.GetTokens).Methods("GET", "POST")
-	
 
 	port := os.Getenv("PORT")
 	if port == "" {
