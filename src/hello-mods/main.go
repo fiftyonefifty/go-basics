@@ -1,6 +1,6 @@
 package main
 
-import "hello-mods/pkg/hello"
+import "hello-mods/hello"
 
 func main() {
 	hello.World()
