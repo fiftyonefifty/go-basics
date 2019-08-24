@@ -30,7 +30,9 @@ cd pkg
 mkdir models
 mkdir controllers
 ```
-The final layout is located [here](src/hello-rest)  
+We are orgainizing our code where all the **.go** files inside sub folders will contain the proper **package %subfoldername%** 
+
+The final layout is located [here](src/hello-rest).  Poke around to see how the code is orgainized.  
 
 While still inside the **./hello-rest/** folder call the following;  
 
